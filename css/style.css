@@ -1,0 +1,46 @@
+.movies {
+	height: 260px;
+	padding: 10px;
+	display: inline-block;
+	color: white;
+}
+
+#thumb {
+	width: 180px;
+	height: 260px;
+}
+
+.genres {
+	background:
+        linear-gradient(
+          rgba(0, 0, 0, 0.7), 
+          rgba(0, 0, 0, 0.7));
+	float: left;
+	
+}
+
+.genrelinks {
+	padding : 10px;
+}
+.genrelinks a {
+	color: white;
+	text-decoration: none;
+}
+#glinks {
+	padding: 8px;
+}
+
+.dlog {
+	float: right;
+	display: block;
+}
+
+.log {
+	padding: 8px;
+    text-decoration: none;
+    color: white;
+   }
+   
+.log:hover {
+    background-color: green;
+}

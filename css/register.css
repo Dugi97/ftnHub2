@@ -1,0 +1,67 @@
+.h{
+    text-align: center;
+}
+h1{
+    margin:0;
+    font-size: 1.5em;
+    color:#272727;
+}
+html { 
+    background: url("../img/batman.jpg") no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+.forma{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    background:rgba(255, 255, 255, 0.7); 
+    padding: 2% 10%;
+    border-radius: 5%;
+}
+
+#submit{
+    background: #636161;
+    border:none;
+    color: rgb(233, 227, 227);
+    font-size: 15px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    height: 40px;
+    width: 50%;
+}
+#submit:hover{
+    background: #976363;
+    transition: 2s;
+}
+.dugme{
+    text-align: center;
+}
+.input {
+    width: 250px;
+    background: transparent;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid rgb(48, 48, 48);
+    color: rgb(49, 49, 49);
+    font-size: 18px;
+    margin-bottom: 16px;
+  }
+  a{
+      color: black;
+      font-weight: bold;
+  }
+  .dole{
+    text-align: center;
+}
+.logo{
+    text-align: center;
+}
+.logo img{
+    border-radius: 5%;
+    width: 15%;
+}
